@@ -1,0 +1,22 @@
+{
+  "name": "bx-blue-green-test",
+  "main": "server.js",
+  "description": "Test project for bx-blue-green application",
+  "version": "0.0.1",
+  "private": false,
+  "engines": {
+    "node": "6.*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andresfvilla/bx-blue-green-test"
+  },
+  "dependencies": {
+    "express": "^4.15.x"
+  },
+  "author": "Andres Villa <andresfvilla88@gmail.com>",
+  "license": "MIT"
+}

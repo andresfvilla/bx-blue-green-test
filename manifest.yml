@@ -1,0 +1,4 @@
+---
+applications:
+ - name: BX-BLUE-GREEN-TEST
+   memory: 256M
