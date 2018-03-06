@@ -1,0 +1,22 @@
+language: node
+sudo: required
+node:
+- 6.0
+
+env:
+  global:
+  - BX_APP: bx-blue-green-test
+  - BX_API: https://api.ng.bluemix.net
+  - BX_ORGANIZATION: andres.villa
+  - BX_SPACE: dev
+
+before_deploy: npm install -g https://github.com/bx-blue-green
+deploy:
+  provider: script
+  script: 
+    - bx-blue-green-travis
+  on:
+    branch: master
+
+notifications:
+  email: true
