@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/andresfvilla/bx-blue-green-test.svg?branch=master](https://travis-ci.org/andresfvilla/bx-blue-green-test)
+[![Build Status](https://travis-ci.org/andresfvilla/bx-blue-green-test.svg?branch=master)](https://travis-ci.org/andresfvilla/bx-blue-green-test)
 
 # Description
 
